@@ -23,7 +23,7 @@ variable "owner_name" {
 variable "environment" {
   description = "Environment label applied to the resources."
   type        = string
-  default     = "dev"
+  default     = "iacChallenge"
 }
 
 variable "http_ingress_cidr" {
@@ -35,5 +35,5 @@ variable "http_ingress_cidr" {
 variable "instance_type" {
   description = "EC2 instance type for the demonstration web server."
   type        = string
-  default     = "t3.micro"
+  default     = "t2.micro"
 }
