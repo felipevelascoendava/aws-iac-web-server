@@ -19,4 +19,4 @@ The web page is exposed over HTTP on port 80. SSH is not opened to the internet.
 
 ## Cost and cleanup
 
-The EC2 instance, public IPv4 address, and data transfer can incur AWS charges. Review the HCP Terraform plan before applying. When finished, destroy the deployment from its workspace.
+The EC2 instance, public IPv4 address, and data transfer can incur AWS charges. Review the HCP Terraform plan before applying. When finished, destroy the deployment from its workspace
