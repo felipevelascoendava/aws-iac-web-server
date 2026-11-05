@@ -1,0 +1,24 @@
+# Terraform working data and state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local Terraform variable files can contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# CLI configuration and override files
+.terraformrc
+terraform.rc
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
