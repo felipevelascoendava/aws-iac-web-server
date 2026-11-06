@@ -1,0 +1,7 @@
+name: aws-iac-web-server-pulumi
+description: IaC challenge in aws
+runtime: hcl
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-hcl
